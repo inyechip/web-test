@@ -12,7 +12,6 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <title>Redes</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -26,13 +25,20 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <title>Inicio</title>
 </head>
 
 <body>
-  <div class="hero_area">
-    <!-- header section strats -->
 
-    <!-- end header section -->
+ <div class="hero_area">
+  <!-- header section starts -->
+
+  <!-- end header section -->
+
+  <!-- slider section -->
+  <section class="slider_section position-relative">
+
+    <!-- REEMPLAZO DE NAVBAR: Nuevo navbar aquí -->
 <div class="custom_nav2" style="width: 100%; background-color: #1e1e1e; box-shadow: 0 2px 5px rgba(0,0,0,0.3); z-index: 1000;">
   <div class="container-fluid" style="padding: 0 40px;">
     <div class="d-flex justify-content-center align-items-center py-3 flex-wrap" style="gap: 40px; width: 100%;">
@@ -51,110 +57,402 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto d-flex align-items-center" style="gap: 25px;">
 
-              <ul class="navbar-nav">
-                <li class="nav-item">
-  <a class="nav-link" href="index.html" style="font-weight: 500; font-size: 16px; color: #00bfff; text-shadow:
-    0 0 5px #00bfff,
-    0 0 10px #00bfff,
-    0 0 20px #00bfff,
-    0 0 30px #00bfff;">Inicio</a>
+<style>
+  .nav-link-custom {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFA500;
+    text-shadow: 0 0 6px rgba(255, 165, 0, 0.6);
+    transition: all 0.3s ease;
+  }
+
+  .nav-link-custom:hover {
+    color: #FF8C00;
+    text-shadow:
+      0 0 8px rgba(255, 140, 0, 0.8),
+      0 0 16px rgba(255, 140, 0, 0.6);
+    transform: scale(1.05);
+  }
+</style>
+
+<li class="nav-item">
+  <a class="nav-link nav-link-custom" href="index.html">Inicio</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="about.html" style="font-weight: 500; font-size: 16px; color: #00bfff; text-shadow:
-    0 0 5px #00bfff,
-    0 0 10px #00bfff,
-    0 0 20px #00bfff,
-    0 0 30px #00bfff;">Nosotros</a>
+  <a class="nav-link nav-link-custom" href="about.html">Nosotros</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="servicios.html" style="font-weight: 500; font-size: 16px; color: #00bfff; text-shadow:
-    0 0 5px #00bfff,
-    0 0 10px #00bfff,
-    0 0 20px #00bfff,
-    0 0 30px #00bfff;">Servicios</a>
+  <a class="nav-link nav-link-custom" href="servicios.html">Servicios</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="repros.html" style="font-weight: 500; font-size: 16px; color: #00bfff; text-shadow:
-    0 0 5px #00bfff,
-    0 0 10px #00bfff,
-    0 0 20px #00bfff,
-    0 0 30px #00bfff;">Reprogramaciones</a>
+  <a class="nav-link nav-link-custom" href="repros.html">Reprogramaciones</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="redes.html" style="font-weight: 500; font-size: 16px; color: #00bfff; text-shadow:
-    0 0 5px #00bfff,
-    0 0 10px #00bfff,
-    0 0 20px #00bfff,
-    0 0 30px #00bfff;">Redes</a>
+  <a class="nav-link nav-link-custom" href="redes.html">Redes</a>
 </li>
 
-                
+
               </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
 
+      <!-- Estilo para hover -->
+      <style>
+        .navbar-nav .nav-link {
+          transition: all 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+          color: #ff3c00 !important;
+          transform: scale(1.05);
+        }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+      </style>
+    </div>
+    <!-- FIN REEMPLAZO NAVBAR -->
+<div class="slider_container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1>
+                  gdr POWER <span style="color: red;"> Chip</span>
+                </h1>
+                <p>
+                  Reprogramaciones y potenciaciones profesionales. <br>
+                  • Escaneo avanzado y diagnóstico en el acto <br>
+                  • Ahorro de combustible sin perder rendimiento <br>
+                  • Atención inmediata en emergencias <br>
+                  • Entrega el mismo día, 100% computarizado <br><br>
+                  <strong>Soluciones:</strong> EGR/DPF, Stage 1/2/3, Pops & Bangs, Launch Control, Power Shift, Hardcut.
+                </p>
+                <div class="btn-box">
+                  <a href="#" class="btn-1">Quiero más información</a>
+                  <a href="https://wa.me/5491123456789" class="btn-2 btn-whatsapp">Comprar por WhatsApp</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-box">
+                <img src="images/gdrtaller.png" alt="">
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1>
+                  Ecus De Todo <br> El País
+                </h1>
+                <p>
+                  Recibimos ECUs de todo el país para reprogramación con la máxima calidad y rapidez.
+                </p>
+                <div class="btn-box">
+                  <a href="obdlinksx.html" class="btn-1">Quiero más información</a>
+                  <a href="https://wa.me/5491123456789" class="btn-2 btn-whatsapp">Comprar por WhatsApp</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-box">
+                <img src="images/ecuabierta.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1>
+                  Soporte en <br> Modificación de Mapas
+                </h1>
+                <p>
+                  Recibimos mapas de motor enviados por clientes y talleres para su modificación y optimización, brindando soporte profesional para mejorar el rendimiento del vehículo.
+                </p>
+                <div class="btn-box">
+                  <a href="#" class="btn-1">Quiero más información</a>
+                  <a href="https://wa.me/5491123456789" class="btn-2 btn-whatsapp">Comprar por WhatsApp</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-box">
+                <img src="images/mapa.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- end slider section -->
   </div>
 
   <!-- about section -->
 
-<section style="background-color: white; color: black; padding: 60px 30px; text-align: center; border-radius: 8px; max-width: 100%; width: 100vw; margin: 30px 0; font-family: Arial, sans-serif; box-sizing: border-box;">
-  <h2 style="margin-bottom: 22.5px; font-weight: 800; font-size: 2.6rem; color: black;">¡No te pierdas ninguna novedad!</h2>
-  <p style="font-size: 1.5rem; margin-bottom: 37.5px; color: black; max-width: 900px; margin-left: auto; margin-right: auto;">
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="img-box ">
+            <img src="images/gdrtaller.png" class="box_img" alt="about img">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="detail-box pr-md-2">
+            <div class="heading_container">
+              <h2 class="">
+                Sobre Nosotros
+              </h2>
+            </div>
+            <p class="detail_p_mt">
+ <section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+  <p>
+En <strong>Gdr Power <span style="color: red;">Chip</span></strong> nos especializamos en <em>reprogramaciones personalizadas</em> para sacar el mejor rendimiento de tu vehículo. Ajustamos la <strong>ECU (unidad de control del motor)</strong> para brindarte:
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; color: #555;">
+    <li>Mayor potencia y respuesta mejorada</li>
+    <li>Reducción en el consumo de combustible</li>
+    <li>Un manejo más eficiente y dinámico</li>
+  </ul>
+  <p>
+    Trabajamos con vehículos nafteros y diésel, ofreciendo soluciones tanto para uso urbano como deportivo, siempre utilizando tecnología de última generación respaldada por años de experiencia.
+  </p>
+  <p>
+    Además, <strong>Recibimos ECUs de todo el país </strong>para reprogramar, garantizando la mejor atención sin importar dónde estés.
+  </p>
+</section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section ends -->
+
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center ">
+        <h2 class="">
+          Servicios
+        </h2>
+        <p class="col-lg-8 px-0">
+En GDR Power Chip contamos con las mejores herramientas y tecnología avanzada, junto con software especializado, para optimizar la potencia, eficiencia y respuesta de tu vehículo, ofreciendo un servicio personalizado y seguro para todo tipo de autos.
+         </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/repro.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Reprogramaciones
+              </h5>
+              <p>
+Realizamos Stage 1, Stage 2 y Stage 3, además de Pop & Bangs, Launch Control, Hardcut y Power Shift para llevar tu vehículo al máximo rendimiento.
+
+
+              </p>
+              <a href="servicios/reprogramaciones.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right"  aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/soluciones.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Soluciones
+              </h5>
+              <p>
+                Ofrecemos soluciones electrónicas para anular o reparar sistemas DPF y EGR, corregir fallas frecuentes y reducir el consumo de combustible, mejorando el rendimiento general del vehículo.
+
+
+              </p>
+              <a href="servicios/soluciones.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/dtc.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Codigos DTC
+              </h5>
+              <p>
+Eliminamos códigos de error almacenados (DTC) en la central electrónica del vehículo. Este servicio ayuda a apagar luces de advertencia y restablecer el funcionamiento óptimo del motor.
+
+
+              </p>
+              <a href="servicios/dtc.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <!----> 
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/scanneo.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Escaneo con informe
+              </h5>
+              <p>
+Escaneamos tu auto con equipo profesional y entregamos un informe claro de los códigos de error.
+
+
+
+
+
+
+
+
+
+              </p>
+              <a href="servicios/scan.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/ecuabierta.jpg" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Ecus de todo el pais
+              </h5>
+              <p>
+Recibimos ECUs de todo el país para reprogramación con la máxima calidad y rapidez.
+
+
+
+              </p>
+              <a href="servicios/ecus.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/mapa.jpg" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Modificamos mapas 
+              </h5>
+              <p>
+                Recibimos mapas de motor enviados por clientes para modificarlos y optimizar el rendimiento de su vehículo con soporte profesional.
+
+
+              </p>
+              <a href="servicios/mapas.html">
+                Mas Informacion <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  
+
+
+  <!-- end map section -->
+
+  <!-- info section -->
+
+
+  <!-- REDES  -->
+
+
+<section style="background-color: white; color: black; padding: 30px 15px; text-align: center; border-radius: 8px; max-width: 100%; width: 100vw; margin: 15px 0; font-family: Arial, sans-serif; box-sizing: border-box;">
+  <h2 style="margin-bottom: 11.25px; font-weight: 800; font-size: 1.3rem; color: black;">¡No te pierdas ninguna novedad!</h2>
+  <p style="font-size: 0.75rem; margin-bottom: 18.75px; color: black; max-width: 900px; margin-left: auto; margin-right: auto;">
     Seguinos en nuestras redes sociales y enterate de todas las promos, tips y novedades.
   </p>
-  <div style="display: flex; justify-content: center; gap: 22.5px; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; padding: 0 15px;">
+  <div style="display: flex; justify-content: center; gap: 11.25px; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; padding: 0 7.5px;">
     <a href="https://www.youtube.com/channel/UCtuTuEjemplo" target="_blank" rel="noopener"
-       style="background-color: #FF0000; color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 12px; box-shadow: 0 4.5px 10.5px rgba(255,0,0,0.8);">
-      <i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 1.8rem;"></i> YouTube
+       style="background-color: #FF0000; color: white; padding: 7.5px 15px; border-radius: 30px; font-size: 0.75rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 6px; box-shadow: 0 2.25px 5.25px rgba(255,0,0,0.8);">
+      <i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 0.9rem;"></i> YouTube
     </a>
 
     <a href="https://www.instagram.com/gdr_power_chip/" target="_blank" rel="noopener"
        style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-              color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 12px; box-shadow: 0 4.5px 10.5px rgba(255,0,150,0.8);">
-      <i class="fa fa-instagram" aria-hidden="true" style="font-size: 1.8rem;"></i> Instagram
+              color: white; padding: 7.5px 15px; border-radius: 30px; font-size: 0.75rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 6px; box-shadow: 0 2.25px 5.25px rgba(255,0,150,0.8);">
+      <i class="fa fa-instagram" aria-hidden="true" style="font-size: 0.9rem;"></i> Instagram
     </a>
 
     <a href="http://wa.link/f9m0sg" target="_blank" rel="noopener"
-       style="background-color: #25D366; color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 12px; box-shadow: 0 4.5px 10.5px rgba(37,211,102,0.8);">
-      <i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 1.8rem;"></i> WhatsApp
+       style="background-color: #25D366; color: white; padding: 7.5px 15px; border-radius: 30px; font-size: 0.75rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 6px; box-shadow: 0 2.25px 5.25px rgba(37,211,102,0.8);">
+      <i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 0.9rem;"></i> WhatsApp
     </a>
 
     <a href="https://www.facebook.com/GDRpowerchip/" target="_blank" rel="noopener"
-       style="background-color: #1877F2; color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 12px; box-shadow: 0 4.5px 10.5px rgba(24,119,242,0.8);">
-      <i class="fa fa-facebook" aria-hidden="true" style="font-size: 1.8rem;"></i> Facebook
+       style="background-color: #1877F2; color: white; padding: 7.5px 15px; border-radius: 30px; font-size: 0.75rem; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 6px; box-shadow: 0 2.25px 5.25px rgba(24,119,242,0.8);">
+      <i class="fa fa-facebook" aria-hidden="true" style="font-size: 0.9rem;"></i> Facebook
     </a>
   </div>
 </section>
 
 
-  <!-- about section ends -->
 
-  
-<section class="info_section ">
-  <div class="info_container ">
-    <div class="container">
-      <div class="info_contact ">
-
-        <a href="https://www.instagram.com/gdr_power_chip/" class="link-box" target="_blank">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <span>
-            Gdr Power Chip
-          </span>
-        </a>
-        
-        <a href="http://wa.link/f9m0sg" class="link-box" target="_blank" rel="noopener">
-          <i class="fa fa-whatsapp" aria-hidden="true"></i>
-          <span>
-            WhatsApp
-          </span>
-        </a>
-      </div>
-      <div class="social_container">
       <!-- Continúa aquí -->
-
+ <!-- redes og
  <div class="social-box">
                <a href="http://wa.link/f9m0sg" class="link-box" target="_blank" rel="noopener">
               <i class="fa fa-youtube" aria-hidden="true"></i>
@@ -174,7 +472,7 @@
       </div>
     </div>
   </section>
-  <!-- end info section -->
+  -->
 
 
   <!-- footer section -->
@@ -182,7 +480,7 @@
        <div class="container">
       <p>
         &copy; <span id="displayYear"></span> developed by
-        <a href="https:/instagram.com/nachohaydo/"><strong><strong>Nacho</strong></strong></a>
+        <a href="https:/instagram.com/nachohaydo/" target="_blank"><strong>Nacho</strong></a>
       </p>
     </div>
   </footer>
